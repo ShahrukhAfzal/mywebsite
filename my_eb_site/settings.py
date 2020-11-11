@@ -144,5 +144,5 @@ STATIC_URL = '/static/'
 #     os.path.join(BASE_DIR, 'my_eb_site/static')
 # ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'www', 'static')
 
