@@ -141,7 +141,7 @@ STATIC_URL = '/static/'
 # Add these new lines
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
+    os.path.join(BASE_DIR, 'my_eb_site/static')
 ]
 
 # STATIC_ROOT = os.path.join(BASE_DIR, 'static')
