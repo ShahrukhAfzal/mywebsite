@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -286,14 +286,14 @@ section {
 }
 
 .section-title {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  /*margin-bottom: 20px;*/
+  padding-bottom: 10px;
   position: relative;
   color: #173b6c;
 }
@@ -302,10 +302,10 @@ section {
   content: '';
   position: absolute;
   display: block;
-  width: 50px;
+  width: 40px;
   height: 3px;
   background: #149ddd;
-  bottom: 0;
+  bottom: -20;
   left: 0;
 }
 
@@ -392,20 +392,20 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 50px;
+  height: 80px;
   display: block;
   background: none;
 }
 
 .skills .progress .skill {
   padding: 10px 0;
-  margin: 0 0 6px 0;
+  margin: 0 0 16px 0;
   text-transform: uppercase;
   display: block;
-  font-weight: 600;
+  font-weight: 800;
   font-family: "Poppins", sans-serif;
   color: #050d18;
 }
@@ -433,7 +433,7 @@ section {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   color: #050d18;
 }
 
