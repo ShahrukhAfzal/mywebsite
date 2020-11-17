@@ -67,21 +67,21 @@ h1, h2, h3, h4, h5, h6 {
   width: 300px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
-  transition: all 0.5s;
+  transition: all 0.7s;
   padding: 0 15px;
   background: #040b14;
   overflow-y: auto;
 }
 
 #header .profile img {
-  margin: 15px auto;
+  margin: 10px auto;
   display: block;
-  width: 120px;
-  border: 8px solid #2c2f3f;
+  width: 140px;
+  border: 10px solid #2c2f3f;
 }
 
 #header .profile h1 {
-  font-size: 24px;
+  font-size: 26px;
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -117,7 +117,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main {
-  margin-left: 300px;
+  margin-left: 330px;
+  margin-right: 30px;
 }
 
 @media (max-width: 1199px) {
@@ -791,7 +792,7 @@ section {
   color: #fff;
   line-height: 1;
   padding: 8px 0;
-  border-radius: 50%;
+  border-radius: 100%;
   text-align: center;
   width: 36px;
   height: 36px;
